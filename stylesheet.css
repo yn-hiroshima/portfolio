@@ -1,27 +1,141 @@
-
+body {
+  background-color: black;
+}
 
   .container {
       width: 1170px;
       margin: 0 auto;
+      text-align: center;
+      color: white;
   }
   
   header {
-    background-color:rgba(34, 49, 52, 0.9);
+    position: fixed;
+    top: 0;
+    z-index: 10;
+    background-color: rgba(27, 60, 110, 0.7);
     width: 100%;
     height: 60px;
-    color: white;
-  }
-  
-  ul {
-    text-align:center;
-  }
-  li {
-      float: left;
-      width: 200px;
-      margin: 0 10px;
-      border: 1px solid #cbd0d3;
   }
 
-  a {
+  header a {
+    color: white;
     line-height: 60px;
+    display: block;
+    transition: all 0.5s;
+  }
+
+  header a:hover {
+    background-color:rgba(93, 150, 196, 0.918)
+  }
+
+  .flex-list {
+    display: flex;
+  }
+
+  .flex-list li {
+    flex: auto;
+  }
+
+
+
+  
+  .top-wrapper {
+    padding: 100px 0 240px 0;
+    background: url(top.jpg);
+    background-size: cover;
+  }
+
+  .top-wrapper h1 {
+    font-size: 80px;
+    letter-spacing: 8px;
+    opacity: 1;
+    line-height: 80px;
+    padding: 30px 0 20px 0;
+  }
+
+  .top-text {
+    margin-bottom: 200px;
+  }
+
+  .top-text p {
+    font-size: 16px;
+    opacity: 1;
+    font-weight: normal;
+    padding-bottom: 5px;
+  }
+
+
+
+
+  .works {
+    width: 800px;
+    margin: 0 auto;
+  }
+
+  .works h2 {
+    margin-top: 80px;
+    font-size: 40px;
+    letter-spacing: 5px;
+  }
+
+  .works ul {
+    height: 100px;
+    margin-top: 20px;
+  }
+
+  .fas-size {
+    font-size: 50px;
+  }
+
+  .works li {
+    line-height: 100px;
+  }
+
+  .works a {
+    display: block;
+  }
+
+
+
+
+  .skills h2 {
+    margin-top: 80px;
+    font-size: 40px;
+    letter-spacing: 5px;
+  }
+
+  .skills ul {
+    margin-top: 20px;
+  }
+
+  .skills li {
+    margin: 5px;
+    padding: 10px;
+    border-radius: 50px;
+    border: 1px solid white;
+  }
+
+
+
+
+  footer {
+    margin-top: 80px;
+  }
+
+  footer {
+    border-top: 1px solid white;
+    margin-top: 80px;
+  }
+
+  footer h2 {
+    margin-top: 30px;
+  }
+
+  footer p {
+    margin: 20px 0 20px 0;
+  }
+
+  .works-hover {
+    display: none;
   }
