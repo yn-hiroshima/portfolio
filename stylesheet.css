@@ -3,7 +3,7 @@ body {
 }
 
   .container {
-      width: 1170px;
+      width: 100%;
       margin: 0 auto;
       text-align: center;
       color: white;
@@ -38,8 +38,7 @@ body {
   }
 
 
-
-  
+  /**
   .top-wrapper {
     padding: 100px 0 240px 0;
     background: url(top.jpg);
@@ -64,8 +63,24 @@ body {
     font-weight: normal;
     padding-bottom: 5px;
   }
+**/
+.top-wrapper {
+  background: url(top.jpg);
+  background-size: 100%;
+}
 
+.top-wrapper h1 {
+  font-size: 60px;
+  padding-top: 100px;
+}
 
+.top-text {
+  margin-top: 30px;
+  opacity: 0.7;
+}
+.top-text p {
+  letter-spacing: 3px;
+}
 
 
   .works {
@@ -74,28 +89,41 @@ body {
   }
 
   .works h2 {
-    margin-top: 80px;
+    margin-top: 400px;
     font-size: 40px;
     letter-spacing: 5px;
   }
 
   .works ul {
-    height: 100px;
+    height: 60px;
     margin-top: 20px;
   }
 
   .fas-size {
     font-size: 50px;
+    display: block;
+    line-height: 60px;
   }
 
   .works li {
-    line-height: 100px;
+    opacity: 0.7;
   }
 
-  .works a {
+  .works-text {
+    font-size: 12px;
+    line-height: 60px;
+    display: none;
+  }
+  
+  .works li:hover {
+    opacity: 1;
+  }
+
+  .text-hover {
     display: block;
   }
 
+  
 
 
 
@@ -106,16 +134,22 @@ body {
   }
 
   .skills ul {
+    display: flex;
+    justify-content: safe center;
     margin-top: 20px;
+    width: 0 auto;
+    
   }
 
   .skills li {
+    flex: none;
+    display: block;
     margin: 5px;
     padding: 10px;
     border-radius: 50px;
     border: 1px solid white;
+    opacity: 0.7;
   }
-
 
 
 
@@ -136,6 +170,22 @@ body {
     margin: 20px 0 20px 0;
   }
 
-  .works-hover {
-    display: none;
+  .logobanner-bg {
+    background-color: white;
+  }
+
+
+  .logobanner h2 {
+    margin: 140px 0 100px 0;
+    font-size: 40px;
+    letter-spacing: 5px;
+    color: black;
+  }
+
+  .logobanner ul {
+    flex-wrap: wrap;
+  }
+
+  .banner-list img {
+    padding: 20px;
   }
