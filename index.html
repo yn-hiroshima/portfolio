@@ -6,52 +6,51 @@
     <title>Portfolio</title>
     <link rel="stylesheet" href="stylesheet.css">
     <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="responsive.css">
     <link href="https://use.fontawesome.com/releases/v5.6.1/css/all.css" rel="stylesheet">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script> 
 </head>
 <body>
     <header>
         <div class="container">
+            <div>
             <ul class="flex-list">
-                <li><a href="#">home</a></li>
-                <li><a href="#">coding</a></li>
-                <li><a href="#">banner</a></li>
-                <li><a href="#">logo</a></li>
-                <li><a href="#">video</a></li>
+                <li><a href="index.html">home</a></li>
+                <li><a href="https://www.rakuten.co.jp/auc-topsense/" target="_blank" rel="noopener">coding</a></li>
+                <li><a href="banner.html">banner</a></li>
+                <li><a href="logo.html">logo</a></li>
+                <li><a href="https://www.youtube.com/watch?v=4B0bv45Nv1M" target="_blank" rel="noopener">video</a></li>
             </ul>
+            </div>
         </div>
     </header>
 
     <div class="top-wrapper">
         <div class="container">
-            <h1>PORTFOLIO</h1>
+            <h1>Portfolio</h1>
             <div class="top-text">
                 <p>現在ECサイトの運営(主に商品ページの作成)を行っています。</p>
+                <br>
                 <p>在職中に作成したバナーや動画等をこのポートフォリオで紹介します。</p>
             </div>
-        </div>
-    </div>
-
-    <div class="works-wrapper">
-        <div class="container">
             <div class="works">
                 <h2>WORKS.</h2>
                 <ul class="flex-list">
-                    <li><a href="#"><i class="fas fa-laptop-code fas-size"></i></a></li>
-                    <li><a href="#"><i class="far fa-flag fas-size"></i></a></li>
-                    <li><a href="#"><i class="fas fa-dice-d6 fas-size"></i></a></li>
-                    <li><a href="#"><i class="fab fa-youtube fas-size"></i></a></li>
+                    <li class="works-hover"><a href="https://www.rakuten.co.jp/auc-topsense/" target="_blank" rel="noopener"><i class="fas fa-laptop-code fas-size"><p class="works-text">コーディング</p></i></a></li>
+                    <li class="works-hover"><a href="banner.html"><i class="far fa-flag fas-size"><p class="works-text">バナー</p></i></a></li>
+                    <li class="works-hover"><a href="logo.html"><i class="fas fa-dice-d6 fas-size"><p class="works-text">ロゴ</p></i></a></li>
+                    <li class="works-hover"><a href="https://www.youtube.com/watch?v=4B0bv45Nv1M" target="_blank" rel="noopener"><i class="fab fa-youtube fas-size"><p class="works-text">動画</p></i></a></li>
                 </ul>
             </div>
         </div>
     </div>
 
-    <div class="skills-wrapper">
+    <div>
         <div class="container">
             <div class="skills">
                 <h2>SKILLS.</h2>
-                <div class="skills-list">
-                    <ul class="flex-list">
+                <div>
+                    <ul>
                         <li>Photoshop</li>
                         <li>illustrator</li>
                         <li>Dreamweaver</li>
@@ -74,5 +73,7 @@
             <p>E-mail : pieceofcake1easy@gmail.com</p>
         </div>
     </footer>
+
+<script src="script.js"></script>
 </body>
 </html>
