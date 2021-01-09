@@ -96,6 +96,13 @@
         font-size: 30px;
     }
 
+
+    .works p {
+        display: block;
+        font-size: 6px;
+        text-align: center;
+    }
+
     .fas-size {
         font-size: 44px;
     }
