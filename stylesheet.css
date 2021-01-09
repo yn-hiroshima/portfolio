@@ -127,9 +127,14 @@ body {
 
   .works-text {
     font-size: 12px;
-    padding-top: 5px;
+    padding-top: 10px;
     display: none;
   }
+
+  .works p {
+    text-align: center;
+}
+
   
   .works li:hover {
     opacity: 1;
