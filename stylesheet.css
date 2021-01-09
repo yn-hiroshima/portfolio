@@ -78,7 +78,7 @@ body {
 **/
 .top-wrapper {
   background: url(top.jpg);
-  background-size: 100%;
+  background-size: cover;
 }
 
 .top-wrapper h1 {
